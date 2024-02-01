@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LatihanAndroid10PPLG2</string>
+
+
+    <string-array name="operation_aritmatik">
+        <item>Tambah</item>
+        <item>Kurang</item>
+        <item>Kali</item>
+        <item>Bagi</item>
+    </string-array>
+
+</resources>

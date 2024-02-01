@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KalkulatorAritmatik">
+
+    <EditText
+        android:id="@+id/txtAngkaSatu"
+        android:inputType="number"
+        android:hint="input angka 1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/txtAngkaDua"
+        android:inputType="number"
+        android:hint="input angka 2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Spinner
+        android:id="@+id/spOperator"
+        android:entries="@array/operation_aritmatik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnHitung"
+        android:layout_marginTop="30dp"
+        android:text="Hitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvHasil"
+        android:textStyle="bold"
+        android:textColor="#0A4EC3"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:text="hasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
